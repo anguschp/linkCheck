@@ -38,6 +38,7 @@ console.log("Check URL: " + url);
       const dataArray = extractData(result);
 
       // Send a response back to the client
+      //Angus Comment
       res.status(200).send(JSON.stringify(dataArray));
     });
   } catch (error) {
